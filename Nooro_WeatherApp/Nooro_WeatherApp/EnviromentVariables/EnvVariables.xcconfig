@@ -10,5 +10,5 @@
 
 
 ROOT_URL = https:/$()/api.weatherapi.com/v1
-API_KEY = 8562b17e15a94fe1b1333458241812
+API_KEY =
 
