@@ -1,6 +1,16 @@
 # Weather App 🌦️
 A simple weather application that provides current weather information using the [WeatherAPI](https://www.weatherapi.com/docs/).
 
+## 📸 Screenshots
+
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="https://github.com/user-attachments/assets/33658bf6-07ff-46d2-a873-678b35cfae44" alt="Home Screen" width="200">
+  <img src="https://github.com/user-attachments/assets/e547b96d-06b2-42c1-8476-9d43079b21e5" alt="Weather Details Screen" width="200">
+  <img src="https://github.com/user-attachments/assets/6c13da13-593c-49fa-b0d4-9067db68a5d0" alt="Forecast Screen" width="200">
+</div>
+
+
+
 ## 📋 Features
 - 🌍 Get current weather information for any location.
 - 🌡️ Displays temperature, humidity, wind speed, and weather conditions.
