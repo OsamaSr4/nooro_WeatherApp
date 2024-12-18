@@ -69,14 +69,14 @@ class NetworkManager: NetworkManagerProtocol {
     private let queue = DispatchQueue(label: "NetworkMonitorQueue")
     
     // Function to check network connectivity
-    private func isNetworkAvailable() -> Bool {
-        var isAvailable = false
-        monitor.pathUpdateHandler = { path in
-            isAvailable = path.status == .satisfied
-        }
-        monitor.start(queue: queue)
-        return isAvailable
-    }
+//    private func isNetworkAvailable() -> Bool {
+//        var isAvailable = false
+//        monitor.pathUpdateHandler = { path in
+//            isAvailable = path.status == .satisfied
+//        }
+//        monitor.start(queue: queue)
+//        return isAvailable
+//    }
     
     func request<T: Decodable>(
         requestPararm: RequestPararm,
@@ -88,7 +88,7 @@ class NetworkManager: NetworkManagerProtocol {
     ) {
         
         // Check if network is available
-        guard isNetworkAvailable() else {
+        guard Reachable.shared.isReachable() else {
             completion(.failure(.networkError)) // New error case for no internet
             return
         }

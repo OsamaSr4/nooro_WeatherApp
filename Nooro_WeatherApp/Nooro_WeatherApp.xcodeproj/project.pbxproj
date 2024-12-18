@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A3A2E6E2D13017A0049DDAC /* Nooro_WeatherAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2E6D2D13017A0049DDAC /* Nooro_WeatherAppApp.swift */; };
-		4A3A2E702D13017A0049DDAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2E6F2D13017A0049DDAC /* ContentView.swift */; };
+		4A3A2E6E2D13017A0049DDAC /* Nooro_WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2E6D2D13017A0049DDAC /* Nooro_WeatherApp.swift */; };
+		4A3A2E702D13017A0049DDAC /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2E6F2D13017A0049DDAC /* WeatherView.swift */; };
 		4A3A2E722D13017B0049DDAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A3A2E712D13017B0049DDAC /* Assets.xcassets */; };
 		4A3A2E752D13017B0049DDAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A3A2E742D13017B0049DDAC /* Preview Assets.xcassets */; };
 		4A3A2E7F2D13017B0049DDAC /* Nooro_WeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2E7E2D13017B0049DDAC /* Nooro_WeatherAppTests.swift */; };
@@ -35,6 +35,24 @@
 		4A3A2ECB2D1314020049DDAC /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2ECA2D1314020049DDAC /* EndPoints.swift */; };
 		4A3A2ECD2D1314140049DDAC /* Headers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2ECC2D1314140049DDAC /* Headers.swift */; };
 		4A3A2ED02D1314420049DDAC /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2ECF2D1314420049DDAC /* UserDefaultManager.swift */; };
+		4A3A2ED32D1314E20049DDAC /* WeatherUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2ED22D1314E20049DDAC /* WeatherUseCase.swift */; };
+		4A3A2ED52D1315050049DDAC /* WeatherRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2ED42D1315050049DDAC /* WeatherRepo.swift */; };
+		4A3A2ED82D13152E0049DDAC /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2ED72D13152E0049DDAC /* Services.swift */; };
+		4A3A2EDB2D1315550049DDAC /* AppThemes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2EDA2D1315550049DDAC /* AppThemes.swift */; };
+		4A3A2EDD2D1315840049DDAC /* SaveSelectedWeatherUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2EDC2D1315840049DDAC /* SaveSelectedWeatherUseCase.swift */; };
+		4A3A2EDF2D13159A0049DDAC /* GetSelectedWeatherUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2EDE2D13159A0049DDAC /* GetSelectedWeatherUseCase.swift */; };
+		4A3A2EE22D1316420049DDAC /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2EE12D1316420049DDAC /* ToastView.swift */; };
+		4A3A2EE42D13167F0049DDAC /* AppText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2EE32D13167F0049DDAC /* AppText.swift */; };
+		4A3A2EEA2D13172F0049DDAC /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2EE92D13172F0049DDAC /* SearchBar.swift */; };
+		4A3A2EEC2D1317440049DDAC /* PlaceHolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2EEB2D1317440049DDAC /* PlaceHolderView.swift */; };
+		4A3A2EEE2D1317540049DDAC /* ReportTexts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2EED2D1317540049DDAC /* ReportTexts.swift */; };
+		4A3A2EF02D13176B0049DDAC /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2EEF2D13176B0049DDAC /* ReportView.swift */; };
+		4A3A2EF22D13177B0049DDAC /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2EF12D13177B0049DDAC /* CityView.swift */; };
+		4A3A2EF42D13178C0049DDAC /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2EF32D13178C0049DDAC /* SearchCell.swift */; };
+		4A3A2EF62D13179A0049DDAC /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2EF52D13179A0049DDAC /* AsyncImageView.swift */; };
+		4A3A2EF82D1317B20049DDAC /* ComponentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2EF72D1317B20049DDAC /* ComponentsView.swift */; };
+		4A3A2EFA2D1317D90049DDAC /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2EF92D1317D90049DDAC /* WeatherViewModel.swift */; };
+		4A3A2EFC2D1318DE0049DDAC /* Reachable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2EFB2D1318DE0049DDAC /* Reachable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,8 +74,8 @@
 
 /* Begin PBXFileReference section */
 		4A3A2E6A2D13017A0049DDAC /* Nooro_WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nooro_WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A3A2E6D2D13017A0049DDAC /* Nooro_WeatherAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nooro_WeatherAppApp.swift; sourceTree = "<group>"; };
-		4A3A2E6F2D13017A0049DDAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4A3A2E6D2D13017A0049DDAC /* Nooro_WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nooro_WeatherApp.swift; sourceTree = "<group>"; };
+		4A3A2E6F2D13017A0049DDAC /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		4A3A2E712D13017B0049DDAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A3A2E742D13017B0049DDAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4A3A2E7A2D13017B0049DDAC /* Nooro_WeatherAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nooro_WeatherAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +106,24 @@
 		4A3A2ECA2D1314020049DDAC /* EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
 		4A3A2ECC2D1314140049DDAC /* Headers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Headers.swift; sourceTree = "<group>"; };
 		4A3A2ECF2D1314420049DDAC /* UserDefaultManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultManager.swift; sourceTree = "<group>"; };
+		4A3A2ED22D1314E20049DDAC /* WeatherUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherUseCase.swift; sourceTree = "<group>"; };
+		4A3A2ED42D1315050049DDAC /* WeatherRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRepo.swift; sourceTree = "<group>"; };
+		4A3A2ED72D13152E0049DDAC /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		4A3A2EDA2D1315550049DDAC /* AppThemes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppThemes.swift; sourceTree = "<group>"; };
+		4A3A2EDC2D1315840049DDAC /* SaveSelectedWeatherUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveSelectedWeatherUseCase.swift; sourceTree = "<group>"; };
+		4A3A2EDE2D13159A0049DDAC /* GetSelectedWeatherUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSelectedWeatherUseCase.swift; sourceTree = "<group>"; };
+		4A3A2EE12D1316420049DDAC /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		4A3A2EE32D13167F0049DDAC /* AppText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppText.swift; sourceTree = "<group>"; };
+		4A3A2EE92D13172F0049DDAC /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		4A3A2EEB2D1317440049DDAC /* PlaceHolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceHolderView.swift; sourceTree = "<group>"; };
+		4A3A2EED2D1317540049DDAC /* ReportTexts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportTexts.swift; sourceTree = "<group>"; };
+		4A3A2EEF2D13176B0049DDAC /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
+		4A3A2EF12D13177B0049DDAC /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
+		4A3A2EF32D13178C0049DDAC /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		4A3A2EF52D13179A0049DDAC /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		4A3A2EF72D1317B20049DDAC /* ComponentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsView.swift; sourceTree = "<group>"; };
+		4A3A2EF92D1317D90049DDAC /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		4A3A2EFB2D1318DE0049DDAC /* Reachable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,8 +180,6 @@
 				4A3A2E992D1301BA0049DDAC /* App */,
 				4A3A2E982D1301A80049DDAC /* EnviromentVariables */,
 				4A3A2E972D13019B0049DDAC /* SupportingFiles */,
-				4A3A2E6D2D13017A0049DDAC /* Nooro_WeatherAppApp.swift */,
-				4A3A2E6F2D13017A0049DDAC /* ContentView.swift */,
 				4A3A2E712D13017B0049DDAC /* Assets.xcassets */,
 				4A3A2E732D13017B0049DDAC /* Preview Content */,
 			);
@@ -198,6 +232,7 @@
 		4A3A2E992D1301BA0049DDAC /* App */ = {
 			isa = PBXGroup;
 			children = (
+				4A3A2EE52D1316CF0049DDAC /* Presenter Layer */,
 				4A3A2EB52D1303AC0049DDAC /* Domain Layer */,
 				4A3A2EB42D13039D0049DDAC /* Data Layer */,
 			);
@@ -216,6 +251,8 @@
 		4A3A2E9B2D1301DF0049DDAC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4A3A2EE02D1316330049DDAC /* Custom Components */,
+				4A3A2ED92D1315490049DDAC /* AppTheme */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -239,6 +276,7 @@
 		4A3A2EB42D13039D0049DDAC /* Data Layer */ = {
 			isa = PBXGroup;
 			children = (
+				4A3A2ED62D1315210049DDAC /* Services */,
 				4A3A2EC02D13138B0049DDAC /* DataStore */,
 				4A3A2EBF2D1313830049DDAC /* Repo */,
 			);
@@ -248,6 +286,7 @@
 		4A3A2EB52D1303AC0049DDAC /* Domain Layer */ = {
 			isa = PBXGroup;
 			children = (
+				4A3A2ED12D1314D80049DDAC /* UseCases */,
 				4A3A2EBD2D1313360049DDAC /* Entities.swift */,
 			);
 			path = "Domain Layer";
@@ -266,6 +305,7 @@
 			children = (
 				4A3A2EC12D1313A90049DDAC /* WeatherRemoteDS.swift */,
 				4A3A2EC32D1313BA0049DDAC /* WeatherLocalDS.swift */,
+				4A3A2ED42D1315050049DDAC /* WeatherRepo.swift */,
 			);
 			path = Repo;
 			sourceTree = "<group>";
@@ -286,6 +326,7 @@
 				4A3A2EC82D1313F40049DDAC /* HTTPMethod.swift */,
 				4A3A2ECA2D1314020049DDAC /* EndPoints.swift */,
 				4A3A2ECC2D1314140049DDAC /* Headers.swift */,
+				4A3A2EFB2D1318DE0049DDAC /* Reachable.swift */,
 			);
 			path = NetworkManager;
 			sourceTree = "<group>";
@@ -296,6 +337,83 @@
 				4A3A2ECF2D1314420049DDAC /* UserDefaultManager.swift */,
 			);
 			path = UserDefaultManger;
+			sourceTree = "<group>";
+		};
+		4A3A2ED12D1314D80049DDAC /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				4A3A2ED22D1314E20049DDAC /* WeatherUseCase.swift */,
+				4A3A2EDC2D1315840049DDAC /* SaveSelectedWeatherUseCase.swift */,
+				4A3A2EDE2D13159A0049DDAC /* GetSelectedWeatherUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		4A3A2ED62D1315210049DDAC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4A3A2ED72D13152E0049DDAC /* Services.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4A3A2ED92D1315490049DDAC /* AppTheme */ = {
+			isa = PBXGroup;
+			children = (
+				4A3A2EDA2D1315550049DDAC /* AppThemes.swift */,
+			);
+			path = AppTheme;
+			sourceTree = "<group>";
+		};
+		4A3A2EE02D1316330049DDAC /* Custom Components */ = {
+			isa = PBXGroup;
+			children = (
+				4A3A2EE12D1316420049DDAC /* ToastView.swift */,
+				4A3A2EE32D13167F0049DDAC /* AppText.swift */,
+			);
+			path = "Custom Components";
+			sourceTree = "<group>";
+		};
+		4A3A2EE52D1316CF0049DDAC /* Presenter Layer */ = {
+			isa = PBXGroup;
+			children = (
+				4A3A2EE82D1317210049DDAC /* Components */,
+				4A3A2EE72D1316FE0049DDAC /* WeatherView */,
+				4A3A2EE62D1316D80049DDAC /* BaseView */,
+			);
+			path = "Presenter Layer";
+			sourceTree = "<group>";
+		};
+		4A3A2EE62D1316D80049DDAC /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				4A3A2E6D2D13017A0049DDAC /* Nooro_WeatherApp.swift */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		4A3A2EE72D1316FE0049DDAC /* WeatherView */ = {
+			isa = PBXGroup;
+			children = (
+				4A3A2E6F2D13017A0049DDAC /* WeatherView.swift */,
+				4A3A2EF92D1317D90049DDAC /* WeatherViewModel.swift */,
+			);
+			path = WeatherView;
+			sourceTree = "<group>";
+		};
+		4A3A2EE82D1317210049DDAC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4A3A2EE92D13172F0049DDAC /* SearchBar.swift */,
+				4A3A2EEB2D1317440049DDAC /* PlaceHolderView.swift */,
+				4A3A2EED2D1317540049DDAC /* ReportTexts.swift */,
+				4A3A2EEF2D13176B0049DDAC /* ReportView.swift */,
+				4A3A2EF12D13177B0049DDAC /* CityView.swift */,
+				4A3A2EF32D13178C0049DDAC /* SearchCell.swift */,
+				4A3A2EF52D13179A0049DDAC /* AsyncImageView.swift */,
+				4A3A2EF72D1317B20049DDAC /* ComponentsView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -437,20 +555,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A3A2ED82D13152E0049DDAC /* Services.swift in Sources */,
+				4A3A2EFC2D1318DE0049DDAC /* Reachable.swift in Sources */,
+				4A3A2EE22D1316420049DDAC /* ToastView.swift in Sources */,
 				4A3A2EBC2D13131A0049DDAC /* LocalDataSource.swift in Sources */,
 				4A3A2EB82D1312DE0049DDAC /* Extensions + Error.swift in Sources */,
+				4A3A2EE42D13167F0049DDAC /* AppText.swift in Sources */,
+				4A3A2ED52D1315050049DDAC /* WeatherRepo.swift in Sources */,
+				4A3A2EDF2D13159A0049DDAC /* GetSelectedWeatherUseCase.swift in Sources */,
+				4A3A2EF22D13177B0049DDAC /* CityView.swift in Sources */,
 				4A3A2EC72D1313DF0049DDAC /* NetworkManager.swift in Sources */,
+				4A3A2EDB2D1315550049DDAC /* AppThemes.swift in Sources */,
+				4A3A2EF82D1317B20049DDAC /* ComponentsView.swift in Sources */,
+				4A3A2EEE2D1317540049DDAC /* ReportTexts.swift in Sources */,
 				4A3A2EC92D1313F40049DDAC /* HTTPMethod.swift in Sources */,
 				4A3A2ECD2D1314140049DDAC /* Headers.swift in Sources */,
+				4A3A2EF62D13179A0049DDAC /* AsyncImageView.swift in Sources */,
 				4A3A2EB32D1303450049DDAC /* Enviroments.swift in Sources */,
 				4A3A2ED02D1314420049DDAC /* UserDefaultManager.swift in Sources */,
 				4A3A2EC22D1313A90049DDAC /* WeatherRemoteDS.swift in Sources */,
 				4A3A2EC42D1313BA0049DDAC /* WeatherLocalDS.swift in Sources */,
-				4A3A2E702D13017A0049DDAC /* ContentView.swift in Sources */,
+				4A3A2EF42D13178C0049DDAC /* SearchCell.swift in Sources */,
+				4A3A2E702D13017A0049DDAC /* WeatherView.swift in Sources */,
+				4A3A2EEA2D13172F0049DDAC /* SearchBar.swift in Sources */,
 				4A3A2EBE2D1313360049DDAC /* Entities.swift in Sources */,
 				4A3A2EBA2D1313070049DDAC /* RemoteDataStore.swift in Sources */,
+				4A3A2EF02D13176B0049DDAC /* ReportView.swift in Sources */,
 				4A3A2ECB2D1314020049DDAC /* EndPoints.swift in Sources */,
-				4A3A2E6E2D13017A0049DDAC /* Nooro_WeatherAppApp.swift in Sources */,
+				4A3A2E6E2D13017A0049DDAC /* Nooro_WeatherApp.swift in Sources */,
+				4A3A2ED32D1314E20049DDAC /* WeatherUseCase.swift in Sources */,
+				4A3A2EEC2D1317440049DDAC /* PlaceHolderView.swift in Sources */,
+				4A3A2EFA2D1317D90049DDAC /* WeatherViewModel.swift in Sources */,
+				4A3A2EDD2D1315840049DDAC /* SaveSelectedWeatherUseCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
