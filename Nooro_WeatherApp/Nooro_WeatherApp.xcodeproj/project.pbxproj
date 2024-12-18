@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A3A2E6E2D13017A0049DDAC /* Nooro_WeatherAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2E6D2D13017A0049DDAC /* Nooro_WeatherAppApp.swift */; };
+		4A3A2E702D13017A0049DDAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2E6F2D13017A0049DDAC /* ContentView.swift */; };
+		4A3A2E722D13017B0049DDAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A3A2E712D13017B0049DDAC /* Assets.xcassets */; };
+		4A3A2E752D13017B0049DDAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A3A2E742D13017B0049DDAC /* Preview Assets.xcassets */; };
+		4A3A2E7F2D13017B0049DDAC /* Nooro_WeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2E7E2D13017B0049DDAC /* Nooro_WeatherAppTests.swift */; };
+		4A3A2E892D13017B0049DDAC /* Nooro_WeatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2E882D13017B0049DDAC /* Nooro_WeatherAppUITests.swift */; };
+		4A3A2E8B2D13017B0049DDAC /* Nooro_WeatherAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2E8A2D13017B0049DDAC /* Nooro_WeatherAppUITestsLaunchTests.swift */; };
+		4A3A2EA72D13026D0049DDAC /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A3A2E9D2D13026D0049DDAC /* Poppins-Black.ttf */; };
+		4A3A2EA82D13026D0049DDAC /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A3A2E9E2D13026D0049DDAC /* Poppins-Bold.ttf */; };
+		4A3A2EA92D13026D0049DDAC /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A3A2E9F2D13026D0049DDAC /* Poppins-ExtraBold.ttf */; };
+		4A3A2EAA2D13026D0049DDAC /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A3A2EA02D13026D0049DDAC /* Poppins-ExtraLight.ttf */; };
+		4A3A2EAB2D13026D0049DDAC /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A3A2EA12D13026D0049DDAC /* Poppins-Light.ttf */; };
+		4A3A2EAC2D13026D0049DDAC /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A3A2EA22D13026D0049DDAC /* Poppins-Medium.ttf */; };
+		4A3A2EAD2D13026D0049DDAC /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A3A2EA32D13026D0049DDAC /* Poppins-Regular.ttf */; };
+		4A3A2EAE2D13026D0049DDAC /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A3A2EA42D13026D0049DDAC /* Poppins-SemiBold.ttf */; };
+		4A3A2EAF2D13026D0049DDAC /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A3A2EA52D13026D0049DDAC /* Poppins-Thin.ttf */; };
+		4A3A2EB32D1303450049DDAC /* Enviroments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2EB22D1303450049DDAC /* Enviroments.swift */; };
+		4A3A2EB82D1312DE0049DDAC /* Extensions + Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2EB72D1312DE0049DDAC /* Extensions + Error.swift */; };
+		4A3A2EBA2D1313070049DDAC /* RemoteDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2EB92D1313070049DDAC /* RemoteDataStore.swift */; };
+		4A3A2EBC2D13131A0049DDAC /* LocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2EBB2D13131A0049DDAC /* LocalDataSource.swift */; };
+		4A3A2EBE2D1313360049DDAC /* Entities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2EBD2D1313360049DDAC /* Entities.swift */; };
+		4A3A2EC22D1313A90049DDAC /* WeatherRemoteDS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2EC12D1313A90049DDAC /* WeatherRemoteDS.swift */; };
+		4A3A2EC42D1313BA0049DDAC /* WeatherLocalDS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2EC32D1313BA0049DDAC /* WeatherLocalDS.swift */; };
+		4A3A2EC72D1313DF0049DDAC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2EC62D1313DF0049DDAC /* NetworkManager.swift */; };
+		4A3A2EC92D1313F40049DDAC /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2EC82D1313F40049DDAC /* HTTPMethod.swift */; };
+		4A3A2ECB2D1314020049DDAC /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2ECA2D1314020049DDAC /* EndPoints.swift */; };
+		4A3A2ECD2D1314140049DDAC /* Headers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2ECC2D1314140049DDAC /* Headers.swift */; };
+		4A3A2ED02D1314420049DDAC /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A2ECF2D1314420049DDAC /* UserDefaultManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A3A2E7B2D13017B0049DDAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A3A2E622D13017A0049DDAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A3A2E692D13017A0049DDAC;
+			remoteInfo = Nooro_WeatherApp;
+		};
+		4A3A2E852D13017B0049DDAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A3A2E622D13017A0049DDAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A3A2E692D13017A0049DDAC;
+			remoteInfo = Nooro_WeatherApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A3A2E6A2D13017A0049DDAC /* Nooro_WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nooro_WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A3A2E6D2D13017A0049DDAC /* Nooro_WeatherAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nooro_WeatherAppApp.swift; sourceTree = "<group>"; };
+		4A3A2E6F2D13017A0049DDAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4A3A2E712D13017B0049DDAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A3A2E742D13017B0049DDAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4A3A2E7A2D13017B0049DDAC /* Nooro_WeatherAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nooro_WeatherAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A3A2E7E2D13017B0049DDAC /* Nooro_WeatherAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nooro_WeatherAppTests.swift; sourceTree = "<group>"; };
+		4A3A2E842D13017B0049DDAC /* Nooro_WeatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nooro_WeatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A3A2E882D13017B0049DDAC /* Nooro_WeatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nooro_WeatherAppUITests.swift; sourceTree = "<group>"; };
+		4A3A2E8A2D13017B0049DDAC /* Nooro_WeatherAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nooro_WeatherAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4A3A2E9D2D13026D0049DDAC /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		4A3A2E9E2D13026D0049DDAC /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		4A3A2E9F2D13026D0049DDAC /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		4A3A2EA02D13026D0049DDAC /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		4A3A2EA12D13026D0049DDAC /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		4A3A2EA22D13026D0049DDAC /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		4A3A2EA32D13026D0049DDAC /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		4A3A2EA42D13026D0049DDAC /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		4A3A2EA52D13026D0049DDAC /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		4A3A2EB02D1302B90049DDAC /* Nooro-WeatherApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nooro-WeatherApp-Info.plist"; sourceTree = SOURCE_ROOT; };
+		4A3A2EB12D1303290049DDAC /* EnvVariables.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = EnvVariables.xcconfig; sourceTree = "<group>"; };
+		4A3A2EB22D1303450049DDAC /* Enviroments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enviroments.swift; sourceTree = "<group>"; };
+		4A3A2EB72D1312DE0049DDAC /* Extensions + Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions + Error.swift"; sourceTree = "<group>"; };
+		4A3A2EB92D1313070049DDAC /* RemoteDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataStore.swift; sourceTree = "<group>"; };
+		4A3A2EBB2D13131A0049DDAC /* LocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataSource.swift; sourceTree = "<group>"; };
+		4A3A2EBD2D1313360049DDAC /* Entities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entities.swift; sourceTree = "<group>"; };
+		4A3A2EC12D1313A90049DDAC /* WeatherRemoteDS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRemoteDS.swift; sourceTree = "<group>"; };
+		4A3A2EC32D1313BA0049DDAC /* WeatherLocalDS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherLocalDS.swift; sourceTree = "<group>"; };
+		4A3A2EC62D1313DF0049DDAC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		4A3A2EC82D1313F40049DDAC /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		4A3A2ECA2D1314020049DDAC /* EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
+		4A3A2ECC2D1314140049DDAC /* Headers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Headers.swift; sourceTree = "<group>"; };
+		4A3A2ECF2D1314420049DDAC /* UserDefaultManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A3A2E672D13017A0049DDAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3A2E772D13017B0049DDAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3A2E812D13017B0049DDAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A3A2E612D13017A0049DDAC = {
+			isa = PBXGroup;
+			children = (
+				4A3A2E6C2D13017A0049DDAC /* Nooro_WeatherApp */,
+				4A3A2E7D2D13017B0049DDAC /* Nooro_WeatherAppTests */,
+				4A3A2E872D13017B0049DDAC /* Nooro_WeatherAppUITests */,
+				4A3A2E6B2D13017A0049DDAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A3A2E6B2D13017A0049DDAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A3A2E6A2D13017A0049DDAC /* Nooro_WeatherApp.app */,
+				4A3A2E7A2D13017B0049DDAC /* Nooro_WeatherAppTests.xctest */,
+				4A3A2E842D13017B0049DDAC /* Nooro_WeatherAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A3A2E6C2D13017A0049DDAC /* Nooro_WeatherApp */ = {
+			isa = PBXGroup;
+			children = (
+				4A3A2EB02D1302B90049DDAC /* Nooro-WeatherApp-Info.plist */,
+				4A3A2E9B2D1301DF0049DDAC /* Resources */,
+				4A3A2E9A2D1301D20049DDAC /* Managers */,
+				4A3A2E992D1301BA0049DDAC /* App */,
+				4A3A2E982D1301A80049DDAC /* EnviromentVariables */,
+				4A3A2E972D13019B0049DDAC /* SupportingFiles */,
+				4A3A2E6D2D13017A0049DDAC /* Nooro_WeatherAppApp.swift */,
+				4A3A2E6F2D13017A0049DDAC /* ContentView.swift */,
+				4A3A2E712D13017B0049DDAC /* Assets.xcassets */,
+				4A3A2E732D13017B0049DDAC /* Preview Content */,
+			);
+			path = Nooro_WeatherApp;
+			sourceTree = "<group>";
+		};
+		4A3A2E732D13017B0049DDAC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4A3A2E742D13017B0049DDAC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4A3A2E7D2D13017B0049DDAC /* Nooro_WeatherAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A3A2E7E2D13017B0049DDAC /* Nooro_WeatherAppTests.swift */,
+			);
+			path = Nooro_WeatherAppTests;
+			sourceTree = "<group>";
+		};
+		4A3A2E872D13017B0049DDAC /* Nooro_WeatherAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A3A2E882D13017B0049DDAC /* Nooro_WeatherAppUITests.swift */,
+				4A3A2E8A2D13017B0049DDAC /* Nooro_WeatherAppUITestsLaunchTests.swift */,
+			);
+			path = Nooro_WeatherAppUITests;
+			sourceTree = "<group>";
+		};
+		4A3A2E972D13019B0049DDAC /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4A3A2EB62D1312D30049DDAC /* Extensions */,
+				4A3A2EA62D13026D0049DDAC /* Fonts */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		4A3A2E982D1301A80049DDAC /* EnviromentVariables */ = {
+			isa = PBXGroup;
+			children = (
+				4A3A2EB12D1303290049DDAC /* EnvVariables.xcconfig */,
+				4A3A2EB22D1303450049DDAC /* Enviroments.swift */,
+			);
+			path = EnviromentVariables;
+			sourceTree = "<group>";
+		};
+		4A3A2E992D1301BA0049DDAC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4A3A2EB52D1303AC0049DDAC /* Domain Layer */,
+				4A3A2EB42D13039D0049DDAC /* Data Layer */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4A3A2E9A2D1301D20049DDAC /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				4A3A2ECE2D1314360049DDAC /* UserDefaultManger */,
+				4A3A2EC52D1313CE0049DDAC /* NetworkManager */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		4A3A2E9B2D1301DF0049DDAC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4A3A2EA62D13026D0049DDAC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4A3A2E9D2D13026D0049DDAC /* Poppins-Black.ttf */,
+				4A3A2E9E2D13026D0049DDAC /* Poppins-Bold.ttf */,
+				4A3A2E9F2D13026D0049DDAC /* Poppins-ExtraBold.ttf */,
+				4A3A2EA02D13026D0049DDAC /* Poppins-ExtraLight.ttf */,
+				4A3A2EA12D13026D0049DDAC /* Poppins-Light.ttf */,
+				4A3A2EA22D13026D0049DDAC /* Poppins-Medium.ttf */,
+				4A3A2EA32D13026D0049DDAC /* Poppins-Regular.ttf */,
+				4A3A2EA42D13026D0049DDAC /* Poppins-SemiBold.ttf */,
+				4A3A2EA52D13026D0049DDAC /* Poppins-Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		4A3A2EB42D13039D0049DDAC /* Data Layer */ = {
+			isa = PBXGroup;
+			children = (
+				4A3A2EC02D13138B0049DDAC /* DataStore */,
+				4A3A2EBF2D1313830049DDAC /* Repo */,
+			);
+			path = "Data Layer";
+			sourceTree = "<group>";
+		};
+		4A3A2EB52D1303AC0049DDAC /* Domain Layer */ = {
+			isa = PBXGroup;
+			children = (
+				4A3A2EBD2D1313360049DDAC /* Entities.swift */,
+			);
+			path = "Domain Layer";
+			sourceTree = "<group>";
+		};
+		4A3A2EB62D1312D30049DDAC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4A3A2EB72D1312DE0049DDAC /* Extensions + Error.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4A3A2EBF2D1313830049DDAC /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				4A3A2EC12D1313A90049DDAC /* WeatherRemoteDS.swift */,
+				4A3A2EC32D1313BA0049DDAC /* WeatherLocalDS.swift */,
+			);
+			path = Repo;
+			sourceTree = "<group>";
+		};
+		4A3A2EC02D13138B0049DDAC /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				4A3A2EB92D1313070049DDAC /* RemoteDataStore.swift */,
+				4A3A2EBB2D13131A0049DDAC /* LocalDataSource.swift */,
+			);
+			path = DataStore;
+			sourceTree = "<group>";
+		};
+		4A3A2EC52D1313CE0049DDAC /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				4A3A2EC62D1313DF0049DDAC /* NetworkManager.swift */,
+				4A3A2EC82D1313F40049DDAC /* HTTPMethod.swift */,
+				4A3A2ECA2D1314020049DDAC /* EndPoints.swift */,
+				4A3A2ECC2D1314140049DDAC /* Headers.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		4A3A2ECE2D1314360049DDAC /* UserDefaultManger */ = {
+			isa = PBXGroup;
+			children = (
+				4A3A2ECF2D1314420049DDAC /* UserDefaultManager.swift */,
+			);
+			path = UserDefaultManger;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A3A2E692D13017A0049DDAC /* Nooro_WeatherApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A3A2E8E2D13017B0049DDAC /* Build configuration list for PBXNativeTarget "Nooro_WeatherApp" */;
+			buildPhases = (
+				4A3A2E662D13017A0049DDAC /* Sources */,
+				4A3A2E672D13017A0049DDAC /* Frameworks */,
+				4A3A2E682D13017A0049DDAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nooro_WeatherApp;
+			productName = Nooro_WeatherApp;
+			productReference = 4A3A2E6A2D13017A0049DDAC /* Nooro_WeatherApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A3A2E792D13017B0049DDAC /* Nooro_WeatherAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A3A2E912D13017B0049DDAC /* Build configuration list for PBXNativeTarget "Nooro_WeatherAppTests" */;
+			buildPhases = (
+				4A3A2E762D13017B0049DDAC /* Sources */,
+				4A3A2E772D13017B0049DDAC /* Frameworks */,
+				4A3A2E782D13017B0049DDAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A3A2E7C2D13017B0049DDAC /* PBXTargetDependency */,
+			);
+			name = Nooro_WeatherAppTests;
+			productName = Nooro_WeatherAppTests;
+			productReference = 4A3A2E7A2D13017B0049DDAC /* Nooro_WeatherAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A3A2E832D13017B0049DDAC /* Nooro_WeatherAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A3A2E942D13017B0049DDAC /* Build configuration list for PBXNativeTarget "Nooro_WeatherAppUITests" */;
+			buildPhases = (
+				4A3A2E802D13017B0049DDAC /* Sources */,
+				4A3A2E812D13017B0049DDAC /* Frameworks */,
+				4A3A2E822D13017B0049DDAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A3A2E862D13017B0049DDAC /* PBXTargetDependency */,
+			);
+			name = Nooro_WeatherAppUITests;
+			productName = Nooro_WeatherAppUITests;
+			productReference = 4A3A2E842D13017B0049DDAC /* Nooro_WeatherAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A3A2E622D13017A0049DDAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					4A3A2E692D13017A0049DDAC = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					4A3A2E792D13017B0049DDAC = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 4A3A2E692D13017A0049DDAC;
+					};
+					4A3A2E832D13017B0049DDAC = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 4A3A2E692D13017A0049DDAC;
+					};
+				};
+			};
+			buildConfigurationList = 4A3A2E652D13017A0049DDAC /* Build configuration list for PBXProject "Nooro_WeatherApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A3A2E612D13017A0049DDAC;
+			productRefGroup = 4A3A2E6B2D13017A0049DDAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A3A2E692D13017A0049DDAC /* Nooro_WeatherApp */,
+				4A3A2E792D13017B0049DDAC /* Nooro_WeatherAppTests */,
+				4A3A2E832D13017B0049DDAC /* Nooro_WeatherAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A3A2E682D13017A0049DDAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3A2EAB2D13026D0049DDAC /* Poppins-Light.ttf in Resources */,
+				4A3A2EAA2D13026D0049DDAC /* Poppins-ExtraLight.ttf in Resources */,
+				4A3A2EA72D13026D0049DDAC /* Poppins-Black.ttf in Resources */,
+				4A3A2EAD2D13026D0049DDAC /* Poppins-Regular.ttf in Resources */,
+				4A3A2EA92D13026D0049DDAC /* Poppins-ExtraBold.ttf in Resources */,
+				4A3A2EAE2D13026D0049DDAC /* Poppins-SemiBold.ttf in Resources */,
+				4A3A2E752D13017B0049DDAC /* Preview Assets.xcassets in Resources */,
+				4A3A2EAC2D13026D0049DDAC /* Poppins-Medium.ttf in Resources */,
+				4A3A2E722D13017B0049DDAC /* Assets.xcassets in Resources */,
+				4A3A2EAF2D13026D0049DDAC /* Poppins-Thin.ttf in Resources */,
+				4A3A2EA82D13026D0049DDAC /* Poppins-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3A2E782D13017B0049DDAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3A2E822D13017B0049DDAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A3A2E662D13017A0049DDAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3A2EBC2D13131A0049DDAC /* LocalDataSource.swift in Sources */,
+				4A3A2EB82D1312DE0049DDAC /* Extensions + Error.swift in Sources */,
+				4A3A2EC72D1313DF0049DDAC /* NetworkManager.swift in Sources */,
+				4A3A2EC92D1313F40049DDAC /* HTTPMethod.swift in Sources */,
+				4A3A2ECD2D1314140049DDAC /* Headers.swift in Sources */,
+				4A3A2EB32D1303450049DDAC /* Enviroments.swift in Sources */,
+				4A3A2ED02D1314420049DDAC /* UserDefaultManager.swift in Sources */,
+				4A3A2EC22D1313A90049DDAC /* WeatherRemoteDS.swift in Sources */,
+				4A3A2EC42D1313BA0049DDAC /* WeatherLocalDS.swift in Sources */,
+				4A3A2E702D13017A0049DDAC /* ContentView.swift in Sources */,
+				4A3A2EBE2D1313360049DDAC /* Entities.swift in Sources */,
+				4A3A2EBA2D1313070049DDAC /* RemoteDataStore.swift in Sources */,
+				4A3A2ECB2D1314020049DDAC /* EndPoints.swift in Sources */,
+				4A3A2E6E2D13017A0049DDAC /* Nooro_WeatherAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3A2E762D13017B0049DDAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3A2E7F2D13017B0049DDAC /* Nooro_WeatherAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3A2E802D13017B0049DDAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3A2E892D13017B0049DDAC /* Nooro_WeatherAppUITests.swift in Sources */,
+				4A3A2E8B2D13017B0049DDAC /* Nooro_WeatherAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A3A2E7C2D13017B0049DDAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A3A2E692D13017A0049DDAC /* Nooro_WeatherApp */;
+			targetProxy = 4A3A2E7B2D13017B0049DDAC /* PBXContainerItemProxy */;
+		};
+		4A3A2E862D13017B0049DDAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A3A2E692D13017A0049DDAC /* Nooro_WeatherApp */;
+			targetProxy = 4A3A2E852D13017B0049DDAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4A3A2E8C2D13017B0049DDAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A3A2EB12D1303290049DDAC /* EnvVariables.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A3A2E8D2D13017B0049DDAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A3A2EB12D1303290049DDAC /* EnvVariables.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A3A2E8F2D13017B0049DDAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nooro_WeatherApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Nooro-WeatherApp-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.learning.Nooro-WeatherApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A3A2E902D13017B0049DDAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nooro_WeatherApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Nooro-WeatherApp-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.learning.Nooro-WeatherApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4A3A2E922D13017B0049DDAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.learning.Nooro-WeatherAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nooro_WeatherApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nooro_WeatherApp";
+			};
+			name = Debug;
+		};
+		4A3A2E932D13017B0049DDAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.learning.Nooro-WeatherAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nooro_WeatherApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nooro_WeatherApp";
+			};
+			name = Release;
+		};
+		4A3A2E952D13017B0049DDAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.learning.Nooro-WeatherAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nooro_WeatherApp;
+			};
+			name = Debug;
+		};
+		4A3A2E962D13017B0049DDAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.learning.Nooro-WeatherAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nooro_WeatherApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A3A2E652D13017A0049DDAC /* Build configuration list for PBXProject "Nooro_WeatherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3A2E8C2D13017B0049DDAC /* Debug */,
+				4A3A2E8D2D13017B0049DDAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A3A2E8E2D13017B0049DDAC /* Build configuration list for PBXNativeTarget "Nooro_WeatherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3A2E8F2D13017B0049DDAC /* Debug */,
+				4A3A2E902D13017B0049DDAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A3A2E912D13017B0049DDAC /* Build configuration list for PBXNativeTarget "Nooro_WeatherAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3A2E922D13017B0049DDAC /* Debug */,
+				4A3A2E932D13017B0049DDAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A3A2E942D13017B0049DDAC /* Build configuration list for PBXNativeTarget "Nooro_WeatherAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3A2E952D13017B0049DDAC /* Debug */,
+				4A3A2E962D13017B0049DDAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A3A2E622D13017A0049DDAC /* Project object */;
+}
