@@ -26,4 +26,3 @@ A simple weather application that provides current weather information using the
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/OsamaSr4/nooro_WeatherApp.git
-   cd nooro_WeatherApp
